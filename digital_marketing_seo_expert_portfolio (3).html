@@ -1,0 +1,978 @@
+<!-- ... existing code ... -->
+    <title>SabbirSEO | Digital Marketing, Google Listing & SEO Specialist</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            800: '#0B132B',
+                            900: '#0F172A',
+                            950: '#070A14'
+                        },
+                        brand: {
+                            blue: '#2563EB',
+                            cyan: '#00F0FF',
+                            green: '#10B981',
+                            gold: '#F59E0B'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0F172A;
+            color: #F8FAFC;
+        }
+        .glow-effect {
+            box-shadow: 0 0 25px rgba(37, 99, 235, 0.2);
+        }
+        .glow-cyan {
+            box-shadow: 0 0 30px rgba(0, 240, 255, 0.25);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #00F0FF 0%, #2563EB 50%, #10B981 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-brand-cyan selection:text-navy-900">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-navy-900/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Brand Logo -->
+                <a href="#" class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-blue to-brand-cyan flex items-center justify-center font-black text-navy-900 text-xl shadow-lg">
+                        S
+                    </div>
+                    <span class="text-xl font-bold tracking-wide text-white">Sabbir<span class="text-brand-cyan">SEO</span></span>
+                </a>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden lg:flex items-center gap-7 font-medium text-slate-300 text-sm">
+                    <a href="#about" class="hover:text-brand-cyan transition-colors">About</a>
+                    <a href="#services" class="hover:text-brand-cyan transition-colors">Services</a>
+                    <a href="#case-studies" class="hover:text-brand-cyan transition-colors">Case Studies</a>
+                    <a href="#audit" class="hover:text-brand-cyan transition-colors">Audit & Listing Tool</a>
+                    <a href="#testimonials" class="hover:text-brand-cyan transition-colors">Google Reviews</a>
+                    <a href="#pricing" class="hover:text-brand-cyan transition-colors">Pricing</a>
+                    <a href="#contact" class="hover:text-brand-cyan transition-colors">Contact</a>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="hidden sm:flex items-center gap-4">
+                    <a href="#audit" class="px-5 py-2.5 rounded-full bg-gradient-to-r from-brand-cyan to-brand-blue text-navy-900 font-bold text-sm hover:opacity-90 transition-all shadow-md hover:shadow-brand-cyan/20">
+                        Get Free Audit <i class="fa-solid fa-bolt ml-1"></i>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="lg:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-slate-300 hover:text-white focus:outline-none text-2xl p-2">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-navy-900 border-b border-slate-800 px-4 pt-3 pb-6 space-y-3">
+            <a href="#about" class="block py-2 text-slate-300 hover:text-brand-cyan">About</a>
+            <a href="#services" class="block py-2 text-slate-300 hover:text-brand-cyan">Services</a>
+            <a href="#case-studies" class="block py-2 text-slate-300 hover:text-brand-cyan">Case Studies</a>
+            <a href="#audit" class="block py-2 text-slate-300 hover:text-brand-cyan">Audit & Listing Tool</a>
+            <a href="#testimonials" class="block py-2 text-slate-300 hover:text-brand-cyan">Google Reviews</a>
+            <a href="#pricing" class="block py-2 text-slate-300 hover:text-brand-cyan">Pricing</a>
+            <a href="#contact" class="block py-2 text-slate-300 hover:text-brand-cyan">Contact</a>
+            <a href="#audit" class="block w-full text-center mt-4 px-5 py-2.5 rounded-full bg-gradient-to-r from-brand-cyan to-brand-blue text-navy-900 font-bold">
+                Get Free Audit
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 md:pt-40 md:pb-32 overflow-hidden">
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-blue/10 rounded-full blur-3xl -z-10 pointer-events-none"></div>
+        <div class="absolute top-1/3 right-10 w-[350px] h-[350px] bg-brand-cyan/10 rounded-full blur-3xl -z-10 pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-brand-cyan/30 bg-brand-cyan/10 text-brand-cyan text-xs sm:text-sm font-semibold tracking-wide">
+                        <span class="flex h-2 w-2 rounded-full bg-brand-cyan animate-ping"></span>
+                        Certified Digital Marketing, Google Listing & SEO Specialist
+                    </div>
+                    
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight text-white">
+                        Drive Organic Growth & <span class="gradient-text">Rank #1 on Google Maps & Search</span>
+                    </h1>
+                    
+                    <p class="text-slate-400 text-lg sm:text-xl max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        Helping businesses build solid online authority through Google My Business listing optimization, 5-star Google Review management, technical website audits, and organic search ranking.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+                        <a href="#audit" class="w-full sm:w-auto px-8 py-4 rounded-full bg-gradient-to-r from-brand-cyan via-brand-blue to-brand-cyan text-navy-900 font-bold text-lg hover:shadow-lg hover:shadow-brand-cyan/25 transition-all text-center">
+                            Get Free SEO Audit <i class="fa-solid fa-arrow-right ml-2"></i>
+                        </a>
+                        <a href="#services" class="w-full sm:w-auto px-8 py-4 rounded-full border border-slate-700 bg-slate-900/60 hover:bg-slate-800 text-white font-semibold text-lg transition-all text-center">
+                            Explore Services
+                        </a>
+                    </div>
+
+                    <!-- Certification & Verification Badges -->
+                    <div class="pt-8 border-t border-slate-800/80 flex flex-wrap items-center justify-center lg:justify-start gap-6 text-slate-400 text-xs font-medium">
+                        <span class="flex items-center gap-2"><i class="fa-brands fa-google text-brand-gold text-base"></i> Google Business Profile Certified</span>
+                        <span class="flex items-center gap-2"><i class="fa-solid fa-star text-brand-gold text-base"></i> 5-Star Review Strategist</span>
+                        <span class="flex items-center gap-2"><i class="fa-solid fa-certificate text-brand-cyan text-base"></i> Semrush SEO Certified</span>
+                    </div>
+                </div>
+
+                <!-- Hero Interactive Metric Card -->
+                <div class="lg:col-span-5 relative">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        <div class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-brand-cyan to-brand-blue blur-xl opacity-30"></div>
+                        <div class="relative bg-slate-900 border border-slate-800 rounded-3xl p-6 glow-effect">
+                            
+                            <!-- Header Info -->
+                            <div class="flex items-center justify-between mb-6 pb-4 border-b border-slate-800">
+                                <div>
+                                    <h3 class="text-white font-bold text-base">Google Business & Traffic Dashboard</h3>
+                                    <p class="text-slate-400 text-xs">SabbirSEO Client Growth Snapshot</p>
+                                </div>
+                                <span class="px-3 py-1 rounded-full bg-brand-green/20 text-brand-green text-xs font-bold flex items-center gap-1">
+                                    <i class="fa-solid fa-arrow-up"></i> Active
+                                </span>
+                            </div>
+
+                            <!-- Analytics Mock Chart -->
+                            <div class="space-y-4 mb-6">
+                                <div>
+                                    <div class="flex justify-between text-xs text-slate-300 mb-1">
+                                        <span>Google Map Pack Views</span>
+                                        <span class="text-brand-green font-bold">+420% Growth</span>
+                                    </div>
+                                    <div class="w-full bg-slate-800 h-3 rounded-full overflow-hidden">
+                                        <div class="bg-gradient-to-r from-brand-blue to-brand-green h-full w-[92%] rounded-full"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="flex justify-between text-xs text-slate-300 mb-1">
+                                        <span>5-Star Google Reviews</span>
+                                        <span class="text-brand-gold font-bold">250+ Verified</span>
+                                    </div>
+                                    <div class="w-full bg-slate-800 h-3 rounded-full overflow-hidden">
+                                        <div class="bg-gradient-to-r from-brand-blue to-brand-gold h-full w-[85%] rounded-full"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="flex justify-between text-xs text-slate-300 mb-1">
+                                        <span>Website SEO Review Score</span>
+                                        <span class="text-brand-cyan font-bold">96 / 100</span>
+                                    </div>
+                                    <div class="w-full bg-slate-800 h-3 rounded-full overflow-hidden">
+                                        <div class="bg-gradient-to-r from-brand-blue to-brand-cyan h-full w-[96%] rounded-full"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Highlights -->
+                            <div class="grid grid-cols-2 gap-3">
+                                <div class="bg-navy-950 p-3 rounded-xl border border-slate-800">
+                                    <p class="text-slate-500 text-[11px] uppercase tracking-wider font-semibold">Local Direct Calls</p>
+                                    <p class="text-white text-xl font-bold mt-1">+1,240</p>
+                                </div>
+                                <div class="bg-navy-950 p-3 rounded-xl border border-slate-800">
+                                    <p class="text-slate-500 text-[11px] uppercase tracking-wider font-semibold">Map 3-Pack Rank</p>
+                                    <p class="text-brand-green text-xl font-bold mt-1">#1 Rank</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-20 bg-navy-900/60 border-y border-slate-800 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-5">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80" alt="Sabbir SEO Expert Professional" class="rounded-3xl border border-slate-800 shadow-2xl w-full object-cover h-[450px]" onerror="this.src='https://placehold.co/600x800/0F172A/00F0FF?text=SabbirSEO+Expert'">
+                        
+                        <div class="absolute -bottom-6 -right-4 sm:right-6 bg-slate-900 border border-slate-700 p-5 rounded-2xl shadow-xl max-w-xs">
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 rounded-xl bg-brand-gold/10 text-brand-gold flex items-center justify-center text-2xl font-bold">
+                                    <i class="fa-solid fa-trophy"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-bold text-sm">SabbirSEO</h4>
+                                    <p class="text-xs text-slate-400">Google Business & SEO Leader</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-block text-brand-cyan text-sm font-bold tracking-wider uppercase">About SabbirSEO</div>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-white leading-tight">Empowering Brands with Search Engine Optimization & Google Local Listing Success</h2>
+                    
+                    <p class="text-slate-300 leading-relaxed">
+                        Welcome to <strong>SabbirSEO</strong>! I am a professional Digital Marketer, Google Business Listing Strategist, and Technical SEO Expert dedicated to making your brand unmissable online.
+                    </p>
+                    <p class="text-slate-400 leading-relaxed">
+                        Whether you need a full technical website SEO review, Google Business Profile (GMB) map pack optimization, or real 5-star Google review strategies, I deliver complete end-to-end solutions that turn Google searches into paying customers.
+                    </p>
+
+                    <!-- Key Metrics Counter Grid -->
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4 border-t border-slate-800">
+                        <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800 text-center">
+                            <span class="text-3xl font-extrabold text-brand-cyan">5+</span>
+                            <p class="text-slate-400 text-xs font-medium mt-1">Years Experience</p>
+                        </div>
+                        <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800 text-center">
+                            <span class="text-3xl font-extrabold text-brand-green">200+</span>
+                            <p class="text-slate-400 text-xs font-medium mt-1">Google Listings Setup</p>
+                        </div>
+                        <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800 text-center">
+                            <span class="text-3xl font-extrabold text-brand-gold">5.0★</span>
+                            <p class="text-slate-400 text-xs font-medium mt-1">Google Review Score</p>
+                        </div>
+                        <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800 text-center">
+                            <span class="text-3xl font-extrabold text-brand-blue">4.5X</span>
+                            <p class="text-slate-400 text-xs font-medium mt-1">Traffic Multiplication</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Offered Section -->
+    <section id="services" class="py-20 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-cyan text-sm font-bold tracking-wider uppercase">Services Provided by SabbirSEO</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mt-2">Specialized Digital Marketing, SEO & Google Solutions</h2>
+                <p class="text-slate-400 mt-4">Complete solutions to optimize your website review, Google Map listings, and organic keyword rankings.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Service 1: Google Reviews & Reputation Management -->
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-brand-gold/50 transition-all group glow-cyan">
+                    <div class="w-14 h-14 rounded-xl bg-brand-gold/10 text-brand-gold flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3 group-hover:text-brand-cyan transition-colors">Google Reviews & Trust Management</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Build customer trust and boost conversion rates with legitimate 5-star Google Review growth strategies, customer feedback funnels, and negative review resolution.
+                    </p>
+                    <ul class="space-y-2 text-xs text-slate-300">
+                        <li><i class="fa-solid fa-check text-brand-gold mr-2"></i>Google Review Generation Funnels</li>
+                        <li><i class="fa-solid fa-check text-brand-gold mr-2"></i>Review Removal Strategy & Spam Filtering</li>
+                        <li><i class="fa-solid fa-check text-brand-gold mr-2"></i>Review Badges & Website Embeds</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2: Google Business Profile & Local Listing -->
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-brand-green/50 transition-all group glow-cyan">
+                    <div class="w-14 h-14 rounded-xl bg-brand-green/10 text-brand-green flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3 group-hover:text-brand-cyan transition-colors">Google Business & Local Listing</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Setup, verify, and optimize your Google Business Profile (GMB) to dominate the Google 3-Pack Map results for local customers.
+                    </p>
+                    <ul class="space-y-2 text-xs text-slate-300">
+                        <li><i class="fa-solid fa-check text-brand-green mr-2"></i>Google Maps 3-Pack Rank Optimization</li>
+                        <li><i class="fa-solid fa-check text-brand-green mr-2"></i>NAP Citation Building & Geotagging</li>
+                        <li><i class="fa-solid fa-check text-brand-green mr-2"></i>GMB Verification & Suspension Removal</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3: Website Audit & SEO Review -->
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-brand-cyan/50 transition-all group glow-cyan">
+                    <div class="w-14 h-14 rounded-xl bg-brand-cyan/10 text-brand-cyan flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3 group-hover:text-brand-cyan transition-colors">Full Website Audit & Review</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        In-depth diagnostic review of your website covering speed, user experience, Core Web Vitals, mobile responsiveness, and technical SEO bugs.
+                    </p>
+                    <ul class="space-y-2 text-xs text-slate-300">
+                        <li><i class="fa-solid fa-check text-brand-cyan mr-2"></i>Core Web Vitals & UI/UX Audit</li>
+                        <li><i class="fa-solid fa-check text-brand-cyan mr-2"></i>Competitor Gap & Keyword Review</li>
+                        <li><i class="fa-solid fa-check text-brand-cyan mr-2"></i>Actionable Video & PDF Audit Report</li>
+                    </ul>
+                </div>
+
+                <!-- Service 4: Technical & On-Page SEO -->
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-brand-cyan/50 transition-all group glow-cyan">
+                    <div class="w-14 h-14 rounded-xl bg-brand-blue/10 text-brand-blue flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3 group-hover:text-brand-cyan transition-colors">Technical & On-Page SEO</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Fine-tuning your site’s code, meta tags, schema markup, and content architecture to maximize Google indexing efficiency.
+                    </p>
+                    <ul class="space-y-2 text-xs text-slate-300">
+                        <li><i class="fa-solid fa-check text-brand-cyan mr-2"></i>High-Intent Keyword Content Strategy</li>
+                        <li><i class="fa-solid fa-check text-brand-cyan mr-2"></i>Structured Data & Schema Setup</li>
+                        <li><i class="fa-solid fa-check text-brand-cyan mr-2"></i>Internal Linking & Topic Clusters</li>
+                    </ul>
+                </div>
+
+                <!-- Service 5: Off-Page & Authority Backlinks -->
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-brand-cyan/50 transition-all group glow-cyan">
+                    <div class="w-14 h-14 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-link"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3 group-hover:text-brand-cyan transition-colors">Link Building & Off-Page SEO</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        High-quality, white-hat backlink placement on authority blogs to increase your Domain Authority (DA/DR) safely.
+                    </p>
+                    <ul class="space-y-2 text-xs text-slate-300">
+                        <li><i class="fa-solid fa-check text-brand-cyan mr-2"></i>High DR Guest Posts & Editorial Links</li>
+                        <li><i class="fa-solid fa-check text-brand-cyan mr-2"></i>Niche Relevant Link Outreach</li>
+                        <li><i class="fa-solid fa-check text-brand-cyan mr-2"></i>Bad Link Disavow & Spam Protection</li>
+                    </ul>
+                </div>
+
+                <!-- Service 6: E-Commerce & PPC Growth -->
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-brand-cyan/50 transition-all group glow-cyan">
+                    <div class="w-14 h-14 rounded-xl bg-pink-500/10 text-pink-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3 group-hover:text-brand-cyan transition-colors">E-Commerce SEO & Paid Ads</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Shopify & WooCommerce SEO combined with targeted Google Ads and Meta Ads to deliver instant sales and sustainable ROI.
+                    </p>
+                    <ul class="space-y-2 text-xs text-slate-300">
+                        <li><i class="fa-solid fa-check text-brand-cyan mr-2"></i>Product Page SEO Optimization</li>
+                        <li><i class="fa-solid fa-check text-brand-cyan mr-2"></i>Google Shopping & Search Ads</li>
+                        <li><i class="fa-solid fa-check text-brand-cyan mr-2"></i>Conversion Rate Optimization (CRO)</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies / Results Showcase Section -->
+    <section id="case-studies" class="py-20 bg-navy-900/60 border-y border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-cyan text-sm font-bold tracking-wider uppercase">Proven Client Results</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mt-2">Google Map Rankings & SEO Success Stories</h2>
+                <p class="text-slate-400 mt-4">Actual performance metrics showcasing Google listing growth and traffic spikes managed by SabbirSEO.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                
+                <!-- Case Study 1 -->
+                <div class="bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden flex flex-col justify-between">
+                    <div>
+                        <div class="h-48 relative overflow-hidden bg-slate-800">
+                            <img src="https://images.unsplash.com/photo-1557838923-2985c318be48?auto=format&fit=crop&w=700&q=80" alt="Local Google Business Case Study" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/600x400/0F172A/00F0FF?text=Google+Listing+SEO'">
+                            <span class="absolute top-4 left-4 bg-brand-gold text-navy-900 text-xs font-bold px-3 py-1 rounded-full">Google Listing & Map Pack</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-white mb-2">City Dental Clinic & Care</h3>
+                            <p class="text-slate-400 text-sm mb-4">Optimized Google Business Profile and grew positive Google Reviews, ranking #1 on Google Maps.</p>
+                            
+                            <!-- Keyword Table -->
+                            <div class="bg-navy-950 rounded-xl p-3 border border-slate-800 text-xs space-y-2 mb-4">
+                                <div class="flex justify-between font-semibold text-slate-400 border-b border-slate-800 pb-1">
+                                    <span>Google Target</span>
+                                    <span>Before</span>
+                                    <span class="text-brand-green">After</span>
+                                </div>
+                                <div class="flex justify-between text-slate-300">
+                                    <span>Google Map Rank</span>
+                                    <span class="text-slate-500">Not Listed</span>
+                                    <span class="text-brand-green font-bold">#1 Map Pack</span>
+                                </div>
+                                <div class="flex justify-between text-slate-300">
+                                    <span>Google Reviews</span>
+                                    <span class="text-slate-500">12 Reviews</span>
+                                    <span class="text-brand-gold font-bold">185★ (5.0)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 border-t border-slate-800/80 flex items-center justify-between text-sm">
+                        <div>
+                            <p class="text-xs text-slate-500">Call Inquiries</p>
+                            <p class="text-brand-green font-bold text-lg">+380% Calls</p>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-500">Duration</p>
+                            <p class="text-white font-semibold">3 Months</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Study 2 -->
+                <div class="bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden flex flex-col justify-between">
+                    <div>
+                        <div class="h-48 relative overflow-hidden bg-slate-800">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=700&q=80" alt="Full Website Review Case Study" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/600x400/0F172A/10B981?text=Website+Audit'">
+                            <span class="absolute top-4 left-4 bg-brand-green text-navy-900 text-xs font-bold px-3 py-1 rounded-full">Website SEO Audit</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-white mb-2">E-Commerce Gadget Store</h3>
+                            <p class="text-slate-400 text-sm mb-4">Conducted complete technical website review, resolved page speed blockers, and optimized target products.</p>
+                            
+                            <!-- Keyword Table -->
+                            <div class="bg-navy-950 rounded-xl p-3 border border-slate-800 text-xs space-y-2 mb-4">
+                                <div class="flex justify-between font-semibold text-slate-400 border-b border-slate-800 pb-1">
+                                    <span>Target Keyword</span>
+                                    <span>Before</span>
+                                    <span class="text-brand-green">After</span>
+                                </div>
+                                <div class="flex justify-between text-slate-300">
+                                    <span>"Wireless Earbuds US"</span>
+                                    <span class="text-slate-500">#45</span>
+                                    <span class="text-brand-green font-bold">#2</span>
+                                </div>
+                                <div class="flex justify-between text-slate-300">
+                                    <span>Page Loading Speed</span>
+                                    <span class="text-slate-500">4.8s</span>
+                                    <span class="text-brand-green font-bold">0.9s</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 border-t border-slate-800/80 flex items-center justify-between text-sm">
+                        <div>
+                            <p class="text-xs text-slate-500">Organic Sales</p>
+                            <p class="text-brand-green font-bold text-lg">+290% ROI</p>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-500">Duration</p>
+                            <p class="text-white font-semibold">5 Months</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Study 3 -->
+                <div class="bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden flex flex-col justify-between">
+                    <div>
+                        <div class="h-48 relative overflow-hidden bg-slate-800">
+                            <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=700&q=80" alt="B2B SaaS Growth" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/600x400/0F172A/F59E0B?text=SaaS+SEO'">
+                            <span class="absolute top-4 left-4 bg-brand-cyan text-navy-900 text-xs font-bold px-3 py-1 rounded-full">B2B SaaS & Organic</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-white mb-2">Smart CRM Platform</h3>
+                            <p class="text-slate-400 text-sm mb-4">Executed topic cluster research and authority outreach strategy to gain top ranking for commercial keywords.</p>
+                            
+                            <!-- Keyword Table -->
+                            <div class="bg-navy-950 rounded-xl p-3 border border-slate-800 text-xs space-y-2 mb-4">
+                                <div class="flex justify-between font-semibold text-slate-400 border-b border-slate-800 pb-1">
+                                    <span>Target Keyword</span>
+                                    <span>Before</span>
+                                    <span class="text-brand-green">After</span>
+                                </div>
+                                <div class="flex justify-between text-slate-300">
+                                    <span>"Sales Automation Tool"</span>
+                                    <span class="text-slate-500">#38</span>
+                                    <span class="text-brand-green font-bold">#1</span>
+                                </div>
+                                <div class="flex justify-between text-slate-300">
+                                    <span>Domain Rating (DR)</span>
+                                    <span class="text-slate-500">DR 22</span>
+                                    <span class="text-brand-green font-bold">DR 58</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 border-t border-slate-800/80 flex items-center justify-between text-sm">
+                        <div>
+                            <p class="text-xs text-slate-500">Monthly Traffic</p>
+                            <p class="text-brand-green font-bold text-lg">180K/mo</p>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-500">Duration</p>
+                            <p class="text-white font-semibold">6 Months</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Free SEO, Website & Google Listing Audit Generator Tool Section -->
+    <section id="audit" class="py-20 relative">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-12 shadow-2xl relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-80 h-80 bg-brand-cyan/10 rounded-full blur-3xl pointer-events-none"></div>
+
+                <div class="text-center max-w-2xl mx-auto mb-10">
+                    <span class="text-brand-cyan text-sm font-bold tracking-wider uppercase">Free Interactive Tool</span>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-white mt-2">Instant SEO & Google Listing Analyzer</h2>
+                    <p class="text-slate-400 mt-2">Enter your Website or Google Business Listing URL below to analyze overall SEO health, Google Map status, and review scores instantly.</p>
+                </div>
+
+                <!-- Input Form -->
+                <form id="auditForm" onsubmit="runAudit(event)" class="space-y-4 max-w-2xl mx-auto">
+                    <div class="grid grid-cols-1 sm:grid-cols-12 gap-3">
+                        <div class="sm:col-span-7">
+                            <input type="url" id="auditUrl" required placeholder="https://yourwebsite.com or Google Listing URL" class="w-full px-5 py-4 rounded-xl bg-navy-950 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-brand-cyan transition-colors text-sm">
+                        </div>
+                        <div class="sm:col-span-5">
+                            <button type="submit" id="auditSubmitBtn" class="w-full h-full py-4 px-6 rounded-xl bg-gradient-to-r from-brand-cyan to-brand-blue text-navy-900 font-bold hover:shadow-lg hover:shadow-brand-cyan/20 transition-all text-sm flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i> Run SabbirSEO Review
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+                <!-- Loading State -->
+                <div id="auditLoader" class="hidden my-10 text-center space-y-4">
+                    <div class="inline-block w-12 h-12 border-4 border-slate-700 border-t-brand-cyan rounded-full animate-spin"></div>
+                    <p class="text-slate-300 text-sm animate-pulse">Scanning site architecture, checking Google Listing & analyzing reviews...</p>
+                </div>
+
+                <!-- Interactive Audit Results Dashboard -->
+                <div id="auditResults" class="hidden mt-10 pt-8 border-t border-slate-800 space-y-8">
+                    
+                    <!-- Top Summary Card -->
+                    <div class="bg-navy-950 p-6 rounded-2xl border border-slate-800 flex flex-col md:flex-row items-center justify-between gap-6">
+                        <div class="flex items-center gap-6">
+                            <!-- Overall Score Badge -->
+                            <div class="relative w-24 h-24 flex items-center justify-center rounded-full bg-slate-900 border-4 border-brand-green text-center">
+                                <div>
+                                    <span id="overallScore" class="text-3xl font-extrabold text-white">84</span>
+                                    <span class="text-xs text-slate-400 block">/100</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-white">SabbirSEO Health Score</h4>
+                                <p id="targetUrlDisplay" class="text-brand-cyan text-sm font-medium">https://example.com</p>
+                                <p class="text-slate-400 text-xs mt-1">Status: Ready for Google Maps & Page #1 Search Rankings</p>
+                            </div>
+                        </div>
+                        <a href="#contact" class="px-5 py-3 rounded-xl bg-brand-green text-navy-900 font-bold text-sm hover:bg-brand-green/90 transition-all text-center">
+                            Get Full Audit PDF <i class="fa-solid fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+
+                    <!-- Metric Breakdown Grid -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                        <div class="bg-slate-900 p-4 rounded-xl border border-slate-800">
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="text-xs font-semibold text-slate-400">Google Listing Status</span>
+                                <span class="text-xs font-bold text-brand-green">Optimized</span>
+                            </div>
+                            <div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden mb-2">
+                                <div class="bg-brand-green h-full w-[90%]"></div>
+                            </div>
+                            <p class="text-[11px] text-slate-400">GMB profile verified and visible.</p>
+                        </div>
+
+                        <div class="bg-slate-900 p-4 rounded-xl border border-slate-800">
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="text-xs font-semibold text-slate-400">Google Review Score</span>
+                                <span class="text-xs font-bold text-brand-gold">4.8★ Rating</span>
+                            </div>
+                            <div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden mb-2">
+                                <div class="bg-brand-gold h-full w-[85%]"></div>
+                            </div>
+                            <p class="text-[11px] text-slate-400">Positive sentiment with high trust.</p>
+                        </div>
+
+                        <div class="bg-slate-900 p-4 rounded-xl border border-slate-800">
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="text-xs font-semibold text-slate-400">Website Speed</span>
+                                <span class="text-xs font-bold text-brand-cyan">78%</span>
+                            </div>
+                            <div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden mb-2">
+                                <div class="bg-brand-cyan h-full w-[78%]"></div>
+                            </div>
+                            <p class="text-[11px] text-slate-400">Minor WebP image compression needed.</p>
+                        </div>
+
+                        <div class="bg-slate-900 p-4 rounded-xl border border-slate-800">
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="text-xs font-semibold text-slate-400">Technical SEO Review</span>
+                                <span class="text-xs font-bold text-brand-blue">82%</span>
+                            </div>
+                            <div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden mb-2">
+                                <div class="bg-brand-blue h-full w-[82%]"></div>
+                            </div>
+                            <p class="text-[11px] text-slate-400">Clean indexing and sitemap architecture.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Reviews & Client Trust Testimonials -->
+    <section id="testimonials" class="py-20 bg-navy-900/40 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-cyan text-sm font-bold tracking-wider uppercase">Google Reviews & Feedback</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mt-2">What Clients Say About SabbirSEO</h2>
+                <p class="text-slate-400 mt-4">Verified Google Reviews and testimonials from business owners worldwide.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl relative flex flex-col justify-between glow-cyan">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="text-brand-gold text-sm">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="text-xs text-slate-400 font-semibold"><i class="fa-brands fa-google text-brand-blue mr-1"></i> Verified Google Review</span>
+                        </div>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-6 italic">
+                            "SabbirSEO completely revamped our Google Business Profile and helped us accumulate 50+ authentic 5-star Google reviews. Our calls doubled in less than a month!"
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-brand-blue flex items-center justify-center font-bold text-white">
+                            AH
+                        </div>
+                        <div>
+                            <h4 class="text-white font-semibold text-sm">Arif Hossain</h4>
+                            <p class="text-slate-500 text-xs">Owner, Grand Auto Repair</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl relative flex flex-col justify-between glow-cyan">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="text-brand-gold text-sm">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="text-xs text-slate-400 font-semibold"><i class="fa-brands fa-google text-brand-blue mr-1"></i> Verified Google Review</span>
+                        </div>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-6 italic">
+                            "The website SEO review provided by Sabbir identified page speed glitches that were hurting our conversions. Fixed them instantly and saw keyword rankings jump!"
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-brand-green flex items-center justify-center font-bold text-navy-900">
+                            TK
+                        </div>
+                        <div>
+                            <h4 class="text-white font-semibold text-sm">Tariq Khan</h4>
+                            <p class="text-slate-500 text-xs">Founder, TechSpace Software</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl relative flex flex-col justify-between glow-cyan">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="text-brand-gold text-sm">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="text-xs text-slate-400 font-semibold"><i class="fa-brands fa-google text-brand-blue mr-1"></i> Verified Google Review</span>
+                        </div>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-6 italic">
+                            "If you want your local business listed #1 on Google Maps with outstanding customer reviews, SabbirSEO is the absolute best expert in the market."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-brand-gold flex items-center justify-center font-bold text-navy-900">
+                            SR
+                        </div>
+                        <div>
+                            <h4 class="text-white font-semibold text-sm">Sarah Rahman</h4>
+                            <p class="text-slate-500 text-xs">Director, Elegant Dental Spa</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing / Service Packages -->
+    <section id="pricing" class="py-20 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-cyan text-sm font-bold tracking-wider uppercase">SabbirSEO Packages</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mt-2">Transparent Service Pricing</h2>
+                <p class="text-slate-400 mt-4">Scalable monthly plans covering Google Listing, Website Reviews, and Organic SEO.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Package 1: Local & Google Listing Plan -->
+                <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 flex flex-col justify-between hover:border-slate-700 transition-all">
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-2">Google Listing & Reviews</h3>
+                        <p class="text-slate-400 text-xs mb-6">Designed for local service businesses & clinics.</p>
+                        <div class="mb-6">
+                            <span class="text-4xl font-extrabold text-white">$299</span>
+                            <span class="text-slate-400 text-sm"> / month</span>
+                        </div>
+                        <ul class="space-y-3 text-xs text-slate-300 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-green"></i> Google Business Profile Optimization</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-green"></i> Google 3-Pack Map Ranking Strategy</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-green"></i> 5-Star Google Review Growth Funnel</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-green"></i> Local Citation & NAP Syncing</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-green"></i> Monthly Google Insights Report</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="w-full py-3 rounded-xl border border-slate-700 hover:bg-slate-800 text-white font-bold text-center text-sm transition-all">
+                        Select Google Listing Plan
+                    </a>
+                </div>
+
+                <!-- Package 2: Growth SEO & Audit (Featured) -->
+                <div class="bg-slate-900 border-2 border-brand-cyan rounded-3xl p-8 flex flex-col justify-between relative shadow-2xl glow-cyan">
+                    <span class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-brand-cyan to-brand-blue text-navy-900 font-extrabold text-xs px-4 py-1.5 rounded-full uppercase tracking-wider">Most Popular</span>
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-2">Full SEO & Website Audit</h3>
+                        <p class="text-slate-400 text-xs mb-6">Comprehensive solution for E-Commerce & SaaS.</p>
+                        <div class="mb-6">
+                            <span class="text-4xl font-extrabold text-white">$699</span>
+                            <span class="text-slate-400 text-sm"> / month</span>
+                        </div>
+                        <ul class="space-y-3 text-xs text-slate-300 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-cyan"></i> Everything in Google Listing Plan</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-cyan"></i> Complete Technical & Speed Review</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-cyan"></i> Up to 30 Target Keyword Rankings</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-cyan"></i> 5 High DR Guest Post Backlinks/mo</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-cyan"></i> On-Page & Schema Optimization</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="w-full py-3 rounded-xl bg-gradient-to-r from-brand-cyan to-brand-blue text-navy-900 font-bold text-center text-sm hover:opacity-90 transition-all">
+                        Select Growth Plan
+                    </a>
+                </div>
+
+                <!-- Package 3: Enterprise Dominance -->
+                <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 flex flex-col justify-between hover:border-slate-700 transition-all">
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-2">Enterprise Market Leader</h3>
+                        <p class="text-slate-400 text-xs mb-6">For brands needing absolute Search & Local dominance.</p>
+                        <div class="mb-6">
+                            <span class="text-4xl font-extrabold text-white">$1,499</span>
+                            <span class="text-slate-400 text-sm"> / month</span>
+                        </div>
+                        <ul class="space-y-3 text-xs text-slate-300 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold"></i> Unlimited Target Keywords & Multi-Locations</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold"></i> Google Business Profile & Review Management</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold"></i> 12+ High Authority Backlinks/mo</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold"></i> Content Writing & PPC Ad Management</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold"></i> Weekly 1-on-1 Consultation Call</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="w-full py-3 rounded-xl border border-slate-700 hover:bg-slate-800 text-white font-bold text-center text-sm transition-all">
+                        Contact For Enterprise
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Booking Section -->
+    <section id="contact" class="py-20 bg-navy-900/60 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                
+                <!-- Contact Info -->
+                <div class="lg:col-span-5 space-y-6">
+                    <span class="text-brand-cyan text-sm font-bold tracking-wider uppercase">Contact SabbirSEO</span>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-white">Let's Discuss Your Google Listing & SEO Strategy</h2>
+                    <p class="text-slate-400 leading-relaxed text-sm">
+                        Ready to improve your Google reviews, fix website issues, and reach Google Page #1? Get in touch with SabbirSEO today!
+                    </p>
+
+                    <div class="space-y-4 pt-4">
+                        <a href="mailto:sabbirms920@gmail.com" class="flex items-center gap-4 p-4 rounded-2xl bg-slate-900 border border-slate-800 hover:border-brand-cyan/50 transition-colors">
+                            <div class="w-12 h-12 rounded-xl bg-brand-cyan/10 text-brand-cyan flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-slate-500">Official Email</p>
+                                <p class="text-white font-semibold text-sm">sabbirms920@gmail.com</p>
+                            </div>
+                        </a>
+
+                        <a href="https://wa.me/8801742561938" target="_blank" class="flex items-center gap-4 p-4 rounded-2xl bg-slate-900 border border-slate-800 hover:border-brand-green/50 transition-colors">
+                            <div class="w-12 h-12 rounded-xl bg-brand-green/10 text-brand-green flex items-center justify-center text-xl">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-slate-500">WhatsApp Instant Chat</p>
+                                <p class="text-white font-semibold text-sm">+8801742561938</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Booking / Inquiry Form -->
+                <div class="lg:col-span-7">
+                    <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 sm:p-10">
+                        <h3 class="text-xl font-bold text-white mb-6">Send a Message to SabbirSEO</h3>
+
+                        <form id="contactForm" onsubmit="submitContact(event)" class="space-y-4">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-300 mb-1">Your Name *</label>
+                                    <input type="text" required placeholder="John Doe" class="w-full px-4 py-3 rounded-xl bg-navy-950 border border-slate-800 text-white placeholder-slate-600 focus:outline-none focus:border-brand-cyan text-sm">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-300 mb-1">Email Address *</label>
+                                    <input type="email" required placeholder="john@company.com" class="w-full px-4 py-3 rounded-xl bg-navy-950 border border-slate-800 text-white placeholder-slate-600 focus:outline-none focus:border-brand-cyan text-sm">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 mb-1">Website URL or Google Listing Link</label>
+                                <input type="url" placeholder="https://yourcompany.com or Google Maps URL" class="w-full px-4 py-3 rounded-xl bg-navy-950 border border-slate-800 text-white placeholder-slate-600 focus:outline-none focus:border-brand-cyan text-sm">
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 mb-1">Service Needed *</label>
+                                <select class="w-full px-4 py-3 rounded-xl bg-navy-950 border border-slate-800 text-white focus:outline-none focus:border-brand-cyan text-sm">
+                                    <option>Google Reviews & Reputation Management</option>
+                                    <option>Google Business Listing & Map Pack</option>
+                                    <option>Full Technical Website Audit & Review</option>
+                                    <option>Complete Organic SEO Strategy</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 mb-1">Project Details *</label>
+                                <textarea rows="4" required placeholder="Describe your goals, current Google review count, or ranking issues..." class="w-full px-4 py-3 rounded-xl bg-navy-950 border border-slate-800 text-white placeholder-slate-600 focus:outline-none focus:border-brand-cyan text-sm"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-brand-cyan via-brand-blue to-brand-cyan text-navy-900 font-bold text-base hover:opacity-90 transition-all">
+                                Send Message to SabbirSEO <i class="fa-solid fa-paper-plane ml-2"></i>
+                            </button>
+                        </form>
+
+                        <div id="contactSuccess" class="hidden mt-4 p-4 rounded-xl bg-brand-green/20 border border-brand-green/50 text-brand-green text-center text-sm font-medium">
+                            <i class="fa-solid fa-circle-check mr-2"></i> Thank you! Your request has been sent to SabbirSEO. We will reply within 12 hours.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy-950 border-t border-slate-800 py-12 text-slate-400 text-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-slate-900">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-brand-blue to-brand-cyan flex items-center justify-center font-bold text-navy-900">
+                        S
+                    </div>
+                    <span class="text-lg font-bold text-white">Sabbir<span class="text-brand-cyan">SEO</span></span>
+                </div>
+                
+                <div class="flex gap-6">
+                    <a href="#about" class="hover:text-white transition-colors">About</a>
+                    <a href="#services" class="hover:text-white transition-colors">Services</a>
+                    <a href="#case-studies" class="hover:text-white transition-colors">Case Studies</a>
+                    <a href="#audit" class="hover:text-white transition-colors">Audit Tool</a>
+                    <a href="#contact" class="hover:text-white transition-colors">Contact</a>
+                </div>
+            </div>
+
+            <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-500">
+                <p>&copy; 2026 SabbirSEO. All rights reserved.</p>
+                <p>Digital Marketing, Google Listing & Website Review Expert.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Scripts -->
+    <script>
+        // Mobile Navigation Toggle
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Simulated Audit Generator Script
+        function runAudit(e) {
+            e.preventDefault();
+            const urlInput = document.getElementById('auditUrl').value;
+            const loader = document.getElementById('auditLoader');
+            const results = document.getElementById('auditResults');
+            const displayUrl = document.getElementById('targetUrlDisplay');
+            const scoreDisplay = document.getElementById('overallScore');
+
+            loader.classList.remove('hidden');
+            results.classList.add('hidden');
+
+            setTimeout(() => {
+                loader.classList.add('hidden');
+                displayUrl.textContent = urlInput;
+                const generatedScore = Math.floor(Math.random() * (95 - 75 + 1)) + 75;
+                scoreDisplay.textContent = generatedScore;
+                results.classList.remove('hidden');
+            }, 1800);
+        }
+
+        // Contact Form Submission
+        function submitContact(e) {
+            e.preventDefault();
+            const successBox = document.getElementById('contactSuccess');
+            const form = document.getElementById('contactForm');
+
+            successBox.classList.remove('hidden');
+            form.reset();
+
+            setTimeout(() => {
+                successBox.classList.add('hidden');
+            }, 5000);
+        }
+    </script>
+</body>
+</html>
